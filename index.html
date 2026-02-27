@@ -29,28 +29,17 @@ add project cards
 /////////////////////////////////////////////////////////////////////////////////////////////-->
 <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
-      <!-- <a class="navbar-brand" href=""> -->
-        <!-- <img src="images/logo.png" alt="logo image"> -->
-      <!-- </a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#home" aria-current="page">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Background</a></li>
           <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#collaborate">Collaborate</a></li>
           </li>
         </ul>
-      </div>
-      <div class="justify-content-end">
-        <button type="button" class="rounded-pill btn-rounded">
-          + 27 64 677 0434
-          <span>
-            <i class="fas fa-phone-alt"></i>
-          </span>
-        </button>
       </div>
     </div>
   </nav>
@@ -70,21 +59,20 @@ add project cards
             C# developer.
           </span>
         </h1>
-        <button type="button" onclick="document.getElementById('collaborate').scrollIntoView();" class="rounded-pill btn-rounded">Get in Touch
-          <span><i class="fas fa-arrow-right"></i></span>
+        <div class="justify-content-end">
+            
+        </div>
+        <button type="button" class="rounded-pill btn-rounded">
+          + 27 64 677 0434
+          <span>
+              <i class="fas fa-phone-alt"></i>
+          </span>
         </button>
       </div>
       <!-- START THE CONTENT FOR THE VIDEO -->
       <div class="col-md-6 intros text-end">
         <div class="video-box">
           <img src="images/services/Lovepik_com-401373103-programmer-knocking-code-work-icon-free-vector-illustration-mate.png" alt="video illutration" class="img-fluid">
-          <!-- <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
-            <span>
-              <i class="fas fa-play-circle"></i>
-            </span>
-            <span class="border-animation border-animation--border-1"></span>
-            <span class="border-animation border-animation--border-2"></span>
-          </a> -->
         </div>
       </div>
     </div>
@@ -258,333 +246,23 @@ add project cards
     <div class="row mt-5 mb-4 g-3 text-center">
       <div class="col-md-12">
         <button class="btn btn-outline-primary" onclick="toggleAllProjects()" type="button">All</button>
-        <button class="btn btn-outline-primary" onclick="toggleProjects('indieprojects')" type="button">Open Projects</button>
-        <button class="btn btn-outline-primary" onclick="toggleProjects('closedprojects')" type="button">Closed Projects</button>
-        <button class="btn btn-outline-primary" onclick="toggleProjects('opensourceprojects')" type="button">Open Source Contributions</button>
+        <button class="btn btn-outline-primary" onclick="toggleProjects('open')" type="button">Open Projects</button>
+        <button class="btn btn-outline-primary" onclick="toggleProjects('closed')" type="button">Closed Projects</button>
+        <button class="btn btn-outline-primary" onclick="toggleProjects('opensource')" type="button">Open Source Contributions</button>
       </div>
     </div>
-    <!-- INDIE PROJECTS -->
-    <section id="indieprojects">
+    <!-- PROJECTS -->
+    <section id="projects">
       <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 1</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 2</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 3</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 4</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 5</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 6</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-7.jpg" alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 7</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-8.jpg" alt="portfolio 8 image" title="portfolio 8 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 8</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 9</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
-
-    <!-- CLOSED PROJECTS -->
-    <section id="closedprojects" style="display: none;">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/services/Lovepik_com-401373103-programmer-knocking-code-work-icon-free-vector-illustration-mate.png" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 1</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 2</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 3</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 4</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 5</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 6</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-7.jpg" alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 7</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-8.jpg" alt="portfolio 8 image" title="portfolio 8 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 8</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 9</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- OPENSOURCE PROJECTS -->
-    <section id="opensourceprojects" style="display: none;">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 1</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 2</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 3</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 4</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 5</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 6</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-7.jpg" alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 7</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-8.jpg" alt="portfolio 8 image" title="portfolio 8 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 8</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 9</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    
   </div>
 </section>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
               START SECTION 8 - GET STARTED  
 /////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="collaborate" class="get-started">
+<!-- <section id="collaborate" class="get-started">
   <div class="container">
     <div class="row text-center">
       <h1 class="display-3 fw-bold text-capitalize">Collaborate</h1>
@@ -594,7 +272,6 @@ add project cards
       </p>
     </div>
 
-    <!-- START THE CTA CONTENT  -->
     <div class="row text-white">
       <div class="col-12 col-lg-6 gradient shadow p-3">
         <div class="cta-info w-100">
@@ -637,7 +314,7 @@ add project cards
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////
                            START SECTION 9 - THE FOOTER  
@@ -701,10 +378,6 @@ add project cards
 <a href="#" class="shadow btn-primary rounded-circle back-to-top">
   <i class="fas fa-chevron-up"></i>
 </a>
-
-
-
-   
     <script src="assets/vendors/js/glightbox.min.js"></script>
 
     <script type="text/javascript">
