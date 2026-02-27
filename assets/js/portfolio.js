@@ -107,10 +107,6 @@ const portfolioprojects = {
 };
 
 window.onload = function() {
-    if (window.location.href != "project.html")
-    {
-        return;
-    }
     toggleAllProjects();
 };
 
