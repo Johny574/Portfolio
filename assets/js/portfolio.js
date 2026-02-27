@@ -31,39 +31,39 @@ const portfolioprojects = {
 		},
         {
 			"name":"Chess",
-			"cover":"./images/projects/Chess/1.png",
+			"cover":"./images/projects/Chess/1.PNG",
 			"description":"2D chess game with integrated stockfish. Challenged myself to make it in a couple of hours.",
 			"url":"",
-			"image1":"./images/projects/Chess/1.png",
-			"image2":"./images/projects/Chess/2.png",
-			"image3":"./images/projects/Chess/3.png"
+			"image1":"./images/projects/Chess/1.PNG",
+			"image2":"./images/projects/Chess/2.PNG",
+			"image3":"./images/projects/Chess/3.PNG"
 		},
         {
 			"name":"Halloween Scramble",
-			"cover":"./images/projects/HalloweenScramble/1.png",
+			"cover":"./images/projects/HalloweenScramble/1.PNG",
 			"description":"Isometric 3D game made for the halloween jam of 2025.",
 			"url":"",
-			"image1":"./images/projects/HalloweenScramble/1.png",
-			"image2":"./images/projects/HalloweenScramble/2.png",
-			"image3":"./images/projects/HalloweenScramble/3.png"
+			"image1":"./images/projects/HalloweenScramble/1.PNG",
+			"image2":"./images/projects/HalloweenScramble/2.PNG",
+			"image3":"./images/projects/HalloweenScramble/3.PNG"
 		},
         {
 			"name":"Isometric Racing",
-			"cover":"./images/projects/Isometric Racing/1.png",
+			"cover":"./images/projects/Isometric Racing/1.PNG",
 			"description":"Game made as a learning experience.",
 			"url":"",
-			"image1":"./images/projects/Isometric Racing/1.png",
-			"image2":"./images/projects/Isometric Racing/2.png",
-			"image3":"./images/projects/Isometric Racing/3.png"
+			"image1":"./images/projects/Isometric Racing/1.PNG",
+			"image2":"./images/projects/Isometric Racing/2.PNG",
+			"image3":"./images/projects/Isometric Racing/3.PNG"
 		},
         {
 			"name":"My Tiny Adventure",
-			"cover":"./images/projects/MyTinyAdventure/2.png",
+			"cover":"./images/projects/MyTinyAdventure/2.PNG",
 			"description":"Top down 2D rpg.",
 			"url":"",
-			"image1":"./images/projects/MyTinyAdventure/1.png",
-			"image2":"./images/projects/MyTinyAdventure/2.png",
-			"image3":"./images/projects/MyTinyAdventure/3.png"
+			"image1":"./images/projects/MyTinyAdventure/1.PNG",
+			"image2":"./images/projects/MyTinyAdventure/2.PNG",
+			"image3":"./images/projects/MyTinyAdventure/3.PNG"
 		},
         {
 			"name":"Street Racing League",
